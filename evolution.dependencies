@@ -1,0 +1,43 @@
+[
+ {
+   "repository": "device_motorola_sm8250-common",
+   "target_path": "device/motorola/sm8250-common",
+   "branch": "Evolution-X"
+ },
+ {
+   "repository": "kernel_motorola_sm8250",
+   "target_path": "kernel/motorola/sm8250",
+   "branch": "lineage-21"
+ },
+ {
+   "repository": "Rondeau79/proprietary_vendor_motorola_sm8250",
+   "target_path": "vendor/motorola/sm8250",
+   "remote": "github-non-los",
+   "branch": "lineage-21"
+ }
+ {
+   "repository": "Rondeau79/proprietary_vendor_motorola_nio",
+   "target_path": "vendor/motorola/nio",
+   "remote": "github-non-los",
+   "branch": "lineage-21"
+ },
+ {
+   "repository": "Rondeau79/android_system_qcom",
+   "target_path": "system/qcom",
+   "remote": "github-non-los",
+   "branch": "lineage-21"
+ },  
+ {
+   "repository": "Rondeau79/android_hardware_motorola",
+   "target_path": "hardware/motorola",
+   "remote": "github-non-los",
+   "branch": "lineage-21"
+ },
+ {
+   "repository": "Rondeau79/packages_apps_ViPER4AndroidFX",
+   "target_path": "packages/apps/ViPER4AndroidFX",
+   "remote": "github-non-los",
+   "branch": "lineage-21"
+ }
+]
+  
