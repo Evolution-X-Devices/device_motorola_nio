@@ -14,7 +14,7 @@
    "target_path": "vendor/motorola/sm8250",
    "remote": "github-non-los",
    "branch": "lineage-21"
- }
+ },
  {
    "repository": "Rondeau79/proprietary_vendor_motorola_nio",
    "target_path": "vendor/motorola/nio",
