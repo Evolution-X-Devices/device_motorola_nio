@@ -10,8 +10,8 @@
    "branch": "lineage-21"
  },
  {
-   "repository": "Rondeau79/proprietary_vendor_motorola_sm8250",
-   "target_path": "vendor/motorola/sm8250",
+   "repository": "Rondeau79/proprietary_vendor_motorola_sm8250-common",
+   "target_path": "vendor/motorola/sm8250-common",
    "remote": "github-non-los",
    "branch": "lineage-21"
  },
