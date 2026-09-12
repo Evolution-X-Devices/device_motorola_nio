@@ -21,6 +21,8 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g(100)
 PRODUCT_MANUFACTURER := motorola
 
+PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
 # Build info
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="nio_retcn-user 12 S1RN32.55-16-13 fce21a-b9f4e9 release-keys" \

@@ -11,6 +11,10 @@ $(call inherit-product, device/motorola/sm8250-common/common.mk)
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2520
+TARGET_SCREEN_WIDTH := 1080
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -42,6 +46,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
+
+# Shipping API level
+BOARD_SHIPPING_API_LEVEL := 30
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/motorola/nio/nio-vendor.mk)
