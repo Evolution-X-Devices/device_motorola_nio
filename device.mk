@@ -21,7 +21,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     FrameworksResNio \
-    SystemUIResNio
+    FrameworksResDeviceRetcn \
+    SystemUIResNio \
+    WifiResDevice \
+    WifiResDeviceRetcn
 
 # Audio
 PRODUCT_COPY_FILES += \
