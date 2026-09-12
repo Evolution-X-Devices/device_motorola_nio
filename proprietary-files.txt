@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from nio_retcn S1RN32.55-16-13
+# All unpinned blobs below are extracted from nio_retail S1RTS32.41-20-16-1-11
 
 # ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb
