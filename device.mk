@@ -42,6 +42,11 @@ $(call soong_config_set_bool,livedisplay_sysfs,enable_ab,true)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml
 
+# Moto Camera 4
+TARGET_MOTCAMERA3 := nio
+
+$(call inherit-product, vendor/motorola/MotCamera4-sm8250/motcamera4.mk)
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp
