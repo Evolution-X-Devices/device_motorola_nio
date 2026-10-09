@@ -22,6 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     FrameworksResNio \
     FrameworksResDeviceRetcn \
+    LineagePlatformDevice \
     SystemUIResNio \
     WifiResDevice \
     WifiResDeviceRetcn
